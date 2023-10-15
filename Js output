@@ -1,0 +1,59 @@
+JS output
+JavaScript display possibilities
+JavaScript can “display” data in different ways
+• Writing into an HTML element, using innerHTML
+• Writing into the hTML output using document.write ( )
+• Writing into an alert box, using window.alert( )
+• Writing into the browser console, using console.log( )
+
+Using inner HTML
+To access an HTML element, js can use the document.getELemntId(id) method
+The id attribute defines the HTML element. The innerHTML property defines the HTML content
+
+<script> document.getElementById(“demo”).innerHTML = 5 + 6;
+</script>
+
+Chagning the innerHTML property of an hTML element is a common way to display data in HTML
+
+Using document.write( )
+For testing purposes, it is convenient to use document.write( ):
+
+<script>
+Document.write(5+6)
+</script>
+
+Using document.write( ) after an HTML document is loaded, will delete all existing HTML:
+
+The document.write ( ) method should only be used for testing
+
+Using window.alert( )
+You can use an alert box to display data:
+You can skip the window keyword
+In js the window keyword
+In JavaScript, the window object is the global scope object, that means that variables ; properties;
+and methods by default belong to the window object. This also means that specifying the window
+keyword optional
+
+<!doctype HTML >
+<html>
+<body>
+<h2> my first web page </h2>
+<p> my first paragraph</p>
+<Script>
+Window.alert(44+22);
+</script>
+</body>
+</html>
+
+Using console.log( )
+For debugging purposes, you can call the console.log( ) method in the browser to display data
+
+You will learn more about debugging in a later chapter
+
+Js print
+Js doesn’t have any print object or print methods
+You can’t access output devices from js
+The only exception is that you can call the window.print( ) method in the browser to print the content
+of the current window
+
+<button onclick = “window.print( )”> print this page </button>
