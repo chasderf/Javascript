@@ -1,0 +1,81 @@
+The <script> tag
+In HTML, JavaScript code is inserted between <script> and </script> tags
+<script>
+document.getElementById(“demo”).innnerHTML = “my First JavaScript”;
+</script>
+
+JavaScript functions and events
+A JavaScript function is a block of JavaScript code that can be executed when “called: for
+
+JavaScript in <head> or <body>
+You can place any number of scripts in an HTML document
+Scripts can be placed in the <body> or in the <head> section of an HTML page, or in both
+
+JavaScript in <head>
+In this example, a JavaScript function is placed in the <head section
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction( ) {
+Document.getELementById(“demo”).innerHTML = “Paragraph changed.”; }
+</script>
+</head>
+<body>
+<h2> demo JavaScript in head </h2>
+<p id = “demo”> A paragraph. </p>
+<button type = “button” onclick = “myFunction( )”> Try IT</button>
+</body>
+</html>
+
+So basically i make a button type and it clicks to my function ( ) and displays a different message
+after the jump
+You should set up myFunction ( ) in the <head> section of an HTML page
+
+The function is invoked (called) when the button is clicked
+
+JavaScript function in <body>
+<p id = “demo”>A paragraph </p>
+< button type = “button” onclick= “myFunction( )”> Try it </BUTTON>
+<script>
+Function myFunction ( ) {
+Document.getEleemntById(“demo”).innerHTML = “paragraph changed.”; }
+</script>
+</body>
+</html>
+
+Placing scripts at the bottom of the <body> element improves the display speed, because script
+interpretation slows down the display
+
+External JavaScript
+Scripts can also be placed in external files
+Function myFunction( ) {document.getElemntById(“demo”).innerHTML = “paragraph changed.”; }
+
+External scripts are practical when the same code is used in many different web pages.
+JavaScript files have the file extention .js
+To use an external script, put the name of the script file in the src (source) attribute of a <script> tag
+<script src = “myScipt.js”></script>
+You can place an external script reference in <head> or <Body> as you like
+The script will behave as if it was located exactly where the <script> tag is located
+External scripts cannot contain <script> tags
+
+External JavaScript advantages
+Placing scripts in external files has some advantages
+
+It separates HTML and code
+It makes hTML and JavaScript easier to read and maintain
+Catches JavaScript files can speed up page loads
+
+To add several script files to one page - use several script tags:
+
+<script src = “myscript1.js”></script>
+<script src = “myscript2.js”></script>
+
+External references
+An external script can be referenced in 3 different ways:
+With a full URL (a full web address)
+Wiht a file path (like /js/)
+Without any path
+File path with JavaScript is like
+<script src = “/js/myScipt.js”></script>
