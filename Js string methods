@@ -1,0 +1,76 @@
+Js string length
+The length property returns the length of a string:
+
+Let txt ;
+Txt = “xyz”;
+Let length = txt.length;
+
+String methods and properties [
+• Slice(start, end)
+• Substring(start, end)
+• Substr(start, length)
+
+Primitive values, like “John Doe” cannot have properties or methods (because they are not objects)
+
+But with javasci[t, methods and properties are also available to primitive values, because js treats
+primitive values as objects when executing methods and properties
+
+Js string length
+
+The length property returns the length of a sting
+
+Extracting string parts::
+
+There are 3 methods for extracting a part of a string
+
+Slice (start, end)
+
+Substring(start, end)
+Subs(start, length)
+
+Js string slice( )
+
+Slice( ) extracts a part of string and returns the extracted part in a new string
+
+The method takes 2 parameters: the start position and the end positions ( end not included)
+
+Let str = “Apple, Bannana, Kiwi”;
+Let part = str.slice(7, 13);
+
+Note::
+
+Js counts positions from zero
+
+First position is 0
+And
+
+<p> the slice( ) method extract a part of a string and returns the extracted parts in a new string: </
+p>
+
+<p id = “demo”></p>
+
+<script>
+Let str = “Apple, Banana, Kiwi”;
+Document.getElementById(“demo”).innerHTML = str.slice(7, 13);
+</script>
+
+</body>
+</html>
+
+//OUPUT::
+
+Th slice ( ) method extracts a part of a string and returns the extracted parts in a new string
+Banana
+
+<p> replace “Microsoft” with “W3schools” in the paragraph below:</p>
+<button onclick = “myFunction( )” > Try it </button>
+<p id = “demo” > Please visit Microsoft!</p>
+
+<script>
+Function myFunction( ) {
+Let text = document.getElementById(“demo”).innerHTML;
+Document.getElementById(“demo”).innerHTML = text.replace(“Microsoft”, “W3schools”); }
+</script>
+
+</body>
+</html>
