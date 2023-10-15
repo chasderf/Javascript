@@ -1,0 +1,57 @@
+Accessing object properties
+You can access object properties in two ways:
+ObjectName.propertyName
+Or
+ObjectName [ “propertyName” ]
+
+JavaScript objects are containers for named values called properties
+
+Object methods::
+Objects can also have methods
+Methods are actions that can be performed on objects
+Methods are in properties as function definitions
+
+Property property value
+FirstName John
+
+A method is a function stored as a property
+
+In the example above, this refers to the person object
+I. E. This.firstName means the firstName property of this
+
+In js , the this keyword refers to an object
+Which object depends on how this is being invoked (used or called)
+The this keyword refers to different objects depending on how it is used
+
+In an object method, this refers to the object
+Alone, this refers to the global object
+In a function, this refers to the global object
+In a function, in strict mode, this is undefined
+In an event, this refers to the element that received the event
+Methods like call ( _) , apply ( ) , and blind ( ) can refer this to any object
+
+NOTE::
+This is not a variable. It is a keyword. You cannot change the value of this
+
+The this keyword
+In a function defintion, this refers to the “owner” of the function
+In the ex above, this is the person object that “owns” the fullName function
+In other words, this.firstName means the firstName property of this object
+
+Accessing object methods
+You access an object method with the following syntax
+ObjectName.methodName( )
+
+Name = person.fullName ( );
+
+If you access a method without the ( ) parentheses , it will return the function defintion
+Name = person.fuillName;
+
+Don’t declare strings, numbers and booleans as objects!
+When a javscript variable is declared with the keyword “new” , the variable is created as an object
+
+X = new string ( ) ;
+Y = new Number ( );
+Z = new Boolean ( ) ;
+
+Avoid string, number, Boolean objects. They complicate your code and slow down execution speed
