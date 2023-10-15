@@ -1,0 +1,66 @@
+JavaScript programs
+A computer program is a list of “instruction” to be “executed” by a computer
+In a programming language, these programming instructions are called statements
+A js program is a list of programming statements
+
+In HTML, js programs are executed by the web browser
+
+Js statements
+Js statements are composed of values, operators, expressions, keywords, adn comments
+This statement tellls the browser to write “hello dolly” inside an hTML element with id = “demo” :
+
+Document.getElementById(“demo”).innerHTML = “Hello Dolly”;
+Most js programs contain many js statements
+The statements are executed
+Js programs (and js statements ) are often called js code
+
+On the web, you might see examples without semicolons
+Ending statements wiht semicolon is not required but highly recommended
+
+Js white space
+Js ignores multiple spaces. You can add white space to your script to make it more readable
+The following lines are eqqualitvent
+Let person = “hGE” ;
+LET PERSON = “hedge”;
+A good practice to put spaces around operators ( = + - * / );
+
+Let x = y + z;
+
+Js line length and line breaks
+For best readability programmers often like to avoid code lines longer than 80 characters
+If a js statement doesn’t fit on one line, the best place to break it is after an operator:
+Document.getElemetnById(“demo”).innerHTML =
+“Holly Dolly ! ”;
+
+Js code blocks
+Js statements can be grouped together in code blocks, inside curly brackets { ... }
+The purpose fo code blocks is to define statements to be executed together
+One please you will find statetn grounded together in blocks, is in js functions:
+
+<!DOTYPE html>
+<HTML>
+<body>
+<h2> JavaScript statements </h2>
+<button type = “button” onclick = “myFunction( )”> Click Me! </button>
+<p id = “demo1”></p>
+<p id = “demo2”></p>
+<script>
+Function myFunction ( ) {
+Document.getElementById(“demo1”).innerHTML = “Hello Dolly ! “;
+Document.getELementById(“demo2”.innerHTML = “How are you today ! “;
+}
+</scipt>
+</body>
+</html>
+
+Var declares a variable
+Let declares a block variable
+Const declares a block constant
+If marks a block of statements to be executed on a condition
+Switch marks a block of statements to be executed in different cases
+For marks a block of statements to tBe executed in a loop
+Function declares a function
+Return exits a function
+Try implements error handling to a block of statements
+
+Js keywords are reserved words. Reserved words can’t be used as names for variables.
