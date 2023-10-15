@@ -1,0 +1,77 @@
+The concept of data types::
+Let x = 16 + “Volvo”;
+Does it make any sense to add “Volvo” to sixteen?
+
+JavaScript reads from left to right::
+
+Input
+Let x = 16 + 4 + “Volvo”;
+20Volvo
+
+// input
+Let x = “Volvo” + 16 + 4 ;
+Volvo164
+
+Js types are dynamic
+Js has dynamic types. This means that the same variable can be used to hold different data types:
+Let x;
+X = 5;
+X = “John”;
+
+JavaScript strings
+A string ( or a text string) is a series of characters like “John Doe”
+Strings are written with quotes. You can use single or double quotes:
+Let carName1 = “Volvo XC60”;
+LetCarName2 = ‘Honda xc60’;
+You can use quotes inside a string, as long as they don’t match the quotes surrounding the string
+
+JavaScript numbers
+Js has only one type of numbers
+
+Numbers can be written with, or without decimals
+Let x1 = 34.00;
+Let x2 = 34;
+
+Extra large or extra small numbers can be written with scientific (exponential) notation
+
+JavaScript booleans
+Booleans can only have two values : true or false
+Let x = 5;
+Let y = 5;
+Let z = 6;
+( x == y ) // returns true
+( x == z) // returns false
+
+Booleans are often used in conditional testing
+You will learn more about conditional testing later in this tutorial
+
+JavaScript arrays
+Js arrays are written with square brackets
+Array items are separated by commas
+The following code declares (creates) an array called cars, containing three items ( car names) :
+
+Const cars = [ “Saab”, “Volvo” , “BMW” ] ;
+Array indexes are zero based, which means the first item is [ 0 ] , second is [ 1 ] and so on
+You will learn more about arrays later in this tutorial
+
+Const person = { firstName:”john”, lastname:”doe”, age:50, eye color:”blue” } ;
+The object (person ). In the example has 4 pro[perties
+
+The typeof Operator
+You can use the JavaScript typeof operator to find the type of a JavaScript variable
+The typeof operator returns the type of a variable or an expression
+Typeof “” //Returns “string”
+Typeof “John Doe” // Returns “string”
+
+Undefined
+In JavaScript, a variable without a value, has the value undefined. The type is also undefined
+Let car; // value is undefined, type is undefined
+
+Any variable can be emptied, by setting the value to undefined. The type will also be undefined
+
+Car = undefined; // value is undefined, type is undefined
+
+Empty values
+An empty value has nothing to do with undefined
+An empty string has both a legal value and a type
+Let car = “” ; // the value is “” , the typeof is “sting”
