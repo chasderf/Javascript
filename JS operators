@@ -1,0 +1,59 @@
+Let x = 5; // assign the value 5 to x
+Let y = 2; // assign the value 2 to y
+Let
+
+Js arithmetic operators hashmap
++ addition
+- subtraction
+* multiplication
+** exponentation
+/ division
+% modulus ( division remainder )
+++ increment
+{ - - } decrement
+Arithmetic operators are fully described in the js arithmetic chapter
+
+Javascipt assignment operators::
+Assignment operators assign values to JavaScript variables
+
+= x = y
++= x = x + y
+-= x = x - y
+*= x = x * y
+/= x = x / y
+%= x = x % y
+**= x = x ** y
+
+JavaScript comparison operators
+== equal to
+=== equal value and equal type
+!= not equal
+!== not equal value or not equal type
+> greater than
+< less than
+
+>= greater than or equal to
+<= less than or equal to
+? ternary operator
+
+&& logical and
+| | logical or
+! logical not
+
+typeof returns the type of a variable
+Instanceof returns true if an object is an instance of an object type
+
+& AND
+| OR
+~ NOT
+^ XOR
+<< Left shift
+>> right shift
+>>> unsigned right shift
+( ) expression grouping (3+4)
+. member person.name
+[ ] member person [ “name” ]
+( ) function call myfunction( )
+New Create new Date( )
+++ postfix increment i++
+i- - postfix decrement i- -
