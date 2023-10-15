@@ -1,0 +1,53 @@
+The let keyword is a new edition within the js library
+Variables defined with let cannot be redeclared
+Variables defined with let have block scope
+
+Cannot be redeclared
+
+Variables defined with let cannot be redeclared
+You cannot accidentally redeclare a variable
+With let you cannot do this
+
+Let x = “john Doe”;
+Let x = 0 ;
+
+So we have to utilize the OG “var::
+
+Var x = “JOHN DOE” ;
+
+Var x = 0;
+
+Block scope::
+
+Js had only global scope and function scope
+
+The newer edition of js library introduced two important new js keywords:: let and const
+
+These two keywords provide scope in js
+Variables declared inside a { } block can’t be accessed from outside the block::
+
+{
+Let x = 2 ;
+}
+
+Variables declared with the var keyword can’t have block scope
+Variables declared inside a { } block can be accessed from outside the block
+
+So i have to have curly braces { } block to access a variable
+{
+Let x = 2;
+}
+
+Redlecaring Varaibles
+Redaclaring a variable using the var keyword can impose problems
+Redeclaring a variable inside a block will also redeclare the variable outside the block::
+
+Redleaclaring a variable using the let keyword can solve this problem
+
+So it reads {. var x = 5 } but not { let x = “hi” ; }
+
+Redlecaring a variable inside a block wont redeclare the variable outside the block
+
+Browser support
+
+The let keyword is not even supported by interneT explorer 11
