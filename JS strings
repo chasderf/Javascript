@@ -1,0 +1,125 @@
+To find the length of a string, use the built in length property
+
+Let text =“abcdzyz”;
+Let length = text.length;
+
+Escape character
+
+Because e strings must be written within quotes js will misunderstand this string
+
+Let text = “We are the so called “Vikings” from the north. “ ;
+
+The string will be chopped to “ we are the so-called”
+
+The solution to avoid this problem is to use the backslash escape characters
+
+Tag result description
+
+\’ ‘ single quote
+\” “ double quote
+\\ \ backslash
+
+The sequence \” inserts a double quote in a string
+
+Let text = “We are called \”Vickings\” from the north.”;
+
+The sequence \’ inserts a single quote in a string;
+
+Let text = ‘It\’s alright”;
+
+So basically one backslash into the JavaScript IDE is going to insert a quotation or a backslash
+
+\b backspace
+\f form feed
+\n new line
+\r carriage return
+\t horizontal tabulator
+\v vertical tabulator
+
+Breaking long codes lines
+
+For best readability, programmers often like to avoid code lines longer than 80 characters
+
+If a JavaScript statement doesn’t fit on one line, the best place tot break it is after operator
+
+Breaking long code lines
+
+For best readability, programmers often like to avoid code lines longer than 80 characters
+
+If a JavaScript statement doesn’t fit on one line, the best place to break it is after an operator::
+
+Document.getElementById(“demo”).innerHTML = “Hello Dolly”;
+
+You can also break up a code line within a text string with a single backslash
+
+Document.getElementById(“demo”).innerHTML = “Hello \ Dolly !”;
+
+The \ method is not the preferred method. It might not have universal support
+
+Some browsers do not allow spaces behind the \ character
+
+A safer way to break up a string, is to use string addition:
+
+Document.getElementByID(“demo”).innerHTML = “Hello “ + “Dolly “;
+
+You cannot break up a code line with a backslash
+
+Document.getElementById(“demo”).innerHTML = \ “Hello Dolly”;
+
+JavaScript strings as objects
+
+Normally, JavaScript strings are primitive values, created from literals
+Let x = “John”;
+
+But strings can also be defined as objects with the keyword new:
+
+Let y = new String (“John”);
+
+Do not create strings objects
+
+The new keyword complicates the code and slows down the execution speed
+
+String objects can produce unexpected results::
+
+When using the. == operator x and y are equal
+
+Let x == “john”;
+
+Let y == new String(“john”);
+
+When using the === operator, x and y are not equal
+
+Let x === “JOhn”;
+
+Let y === new String (“John”);
+
+Note the difference between ( x == y) and (x === y )
+
+(X == y)
+
+so this evaluation document.getElementById(“demo”).innerHTML = (x === y )
+
+<script>
+Let x = new String(“John”);
+Let y = new String(“John”);
+Document.getElementById(“demo”).innerHTML = (x===y);
+</script>
+
+So this evaluation of document with (x === y )
+
+So this evaluation will become true with two string objects (x == y)
+
+<script>
+Let x = “John”;
+Let y = new String(“John”);
+Document.getElementById(“demo”).innerHTML = (x == y);
+
+This will become true with our evaluation
+
+<script>
+Let x = new string (“John”);
+Let y = new String(“John”);
+Document.getElementById(“demo”).innerHTML = (x==y);
+</script>
+
+JavaScript objects always returns false when they are equatied
