@@ -1,0 +1,91 @@
+Js comments can be used to explain js code and to make it more readable
+Js comments can also be used to prevent execution, when testing alternative code
+Single line comments
+Single line comments starts with //
+Any text between // and the end of the line will be ignored by js
+This example uses a single line comment before each code line
+
+All JavaScript variables must be identified with unique names
+These unique names are called identifiers
+Identifiers can be short names ( like x and y ) or more descriptive names (age, sum, totalVolume)
+
+The general rules for constructing names for variables ( unique identifiers are )
+Names can contain letters, digits, underscores, and dollar signs
+Names must begin with a letter
+Names can also begin with a letter
+Names can also begin with $ and _ ( but we will not use it in this tutorial )
+
+JavaScript identifiers are case sensitive
+The Assignment operator
+In JavaScript, the equal sign ( = ) is an “assignment” operator, not an “equal to “operator
+This is different from algebra, the following doesn’t make sense in algebra
+X = x + 5;
+Note:
+The “equal to” opeartor is written lIke == in js
+Js data types::
+Js variables can hold numbers like 100 and text values like “John Doe”
+In programming text values are called text strings
+Js can handle many types of data, but for now, just think of numbers and strings
+Strings can be written with double or single quotes, numbers are written without quotes
+If you put a number in quotes, it will be treated as a text string
+
+Declaring a js variable
+Creating a variable in js is called declaring a varaibale
+You declare a js variable with the var or the let keyword
+Var carName;
+Let carName;
+
+After the declaration, the Variable has no value (technically it is undefined)
+To assign a value to the variable, use the equal sign
+
+Let carName = “Volvo”;
+<p id”demo”></p>
+<script>
+Let carName = “Volvo”;
+Document.getElementById(“DEMO”).innerHTML = carName;
+
+Note:
+It’s a good programming practice to declare all variables at the beginning of a script
+
+One statement, many variables
+You can declare many variables in on
+Let person = “John Doe”, carName = “Volvo”, price = 200;
+A declaration can span multiple lines when separated by commas for one let call
+
+To let a variable be declared and yet undefined is to
+
+Let carName;
+
+Redecorating js variables
+If your redecorating a js variable with var, it will not lose its value
+Var carName = “Volvo”;
+Var carName ;
+
+NOTE:
+You can’t redeclare a variable with let or const
+
+Js arithmetic
+Let x = 5 + 2 - 4
+You can add strings and concatenation them together
+Let x = “John” + “ “ + “DOE”;
+
+Let x = “5” + 2 + 3;
+// Output
+523
+Note::
+If you put a number in quotes, the rest of the numbers will be treated as strings, and ocncateneated
+
+Js dollar sign $
+Since js treats a dollar sign as a letter, identifiers containing $ are valid variable names
+Let $ = “Hello World”;
+Let $myMoney = 5;
+Professional programmers often use it as an alias for the main function in js library
+In the js library jqueuery for instance, the main functions $ is used to select HTML elements
+In jqueury $(“p”); means “select all p elemnts”
+
+Professional pro-grammar
+Js underscore (_)
+Since js treats underscore as a letter, identifiers containing _ are valid variable names:
+Let _lastName = “Johnson”;
+Let _x = 2;
+Let _100 = 5;
