@@ -1,0 +1,12 @@
+A JavaScript function is a block of code designed to perform a particular task
+A JavaScript function is executed when “something” invokes it (calls it)
+Function myFunction (p1, p2) {
+Returns p1 * p2; // the functions returns the product of p1 and p2
+}
+
+Function invocation
+The code inside the function will execute when “something” invokes (calls) the function
+When an event occurs ( when a user clicks a button )
+when it is invoked ( called ) from javscript code
+Automatically (self invoked )
+You will learn more about function invocation larger in this tutorial
