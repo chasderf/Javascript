@@ -1,0 +1,13 @@
+So they basically reset the html standard
+
+Common HTML events
+
+Here is a list of common HTML events
+
+Event description
+Onchange an HTML element has been changed
+Onclick the user clicks an HTML element
+Onmouseover the user moves the mouse over an HTML element
+Onmouseout the user moves the mouse away from an HTML element
+Onkeydown the user pushes a keyboard key
+Onload the browser has finished loading the page
